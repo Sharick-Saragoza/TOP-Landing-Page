@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    border: 1px red solid;
+    display: flex;  
+    flex-direction: column;
+    height: 100vh;
+}
+
+.navbar {
+    display: flex;
+    flex: 1;
+}
+
+.section-1 {
+    background-color: #1F2937;
+    display: flex;
+    flex: 1;
+}
+
+.section-2 {
+    display: flex;
+    flex: 1;
+}
+
+.section-3 {
+    background-color: #E5E7EB;
+    display: flex;
+    flex: 1;
+}
+
+.section-4 {
+    display: flex;
+    flex: 1;
+}
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    flex: 1;
+}
