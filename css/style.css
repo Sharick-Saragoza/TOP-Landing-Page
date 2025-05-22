@@ -2,10 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
-.container {
-    border: 1px red solid;
+.flex-container {
     display: flex;  
     flex-direction: column;
     height: 100vh;
@@ -13,33 +13,30 @@
 
 .navbar {
     display: flex;
-    flex: 1;
-}
-
-.section-1 {
+    justify-content: right;
+    gap: 15px;
+    align-items: center;
+    height: 65px;
+    padding: 0 20%;
+    font-size: 18px;
     background-color: #1F2937;
-    display: flex;
-    flex: 1;
+    color: #F9FAF8;
 }
 
-.section-2 {
-    display: flex;
-    flex: 1;
+.logo {
+    font-size: 24px;
+    font-weight: 900;
 }
 
-.section-3 {
-    background-color: #E5E7EB;
-    display: flex;
-    flex: 1;
+.container.navbar {
+    flex-grow: 0;
 }
 
-.section-4 {
-    display: flex;
-    flex: 1;
+.logo {
+    margin-right: auto;
 }
 
-.footer {
-    background-color: #1F2937;
+.container {
     display: flex;
-    flex: 1;
+    flex: auto;
 }
