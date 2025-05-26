@@ -169,6 +169,15 @@ button {
 }
 
 .cta-button {
-    border: solid 2px white;
+    border: solid 2px #F9FAF8;
     border-radius: 3px;
+}
+
+.footer {
+    height: 65px;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
 }
